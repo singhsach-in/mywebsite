@@ -1,0 +1,177 @@
+/* --------------------- Tag selectors ---------------------- */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;   /* ----- 16px == 100% == 1 rem, 90px = 90/16 = 5.625rem --------- */
+    
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+h1, h2 {
+    /* color: #66BFBF; */
+    color: #3e9c87;
+}
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    color: #11999E;
+}
+p {
+    line-height: 2;
+    color: #40514E;
+}
+hr {
+    border-top: 5px dotted #EAF6F6;
+    border-bottom: none;
+    width: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div {
+    
+}
+
+/* --------------------- Class selectors ---------------------- */
+.top {
+    /* background-color: #E4F9F5; */
+    background-color: #EAF6F6;
+    padding-top: 180px;
+    position: relative; 
+}
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 8px
+  }
+  .top a {
+	padding: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: #11999E  
+}
+.left-side {
+    position: absolute;
+    right: 40px; top: 20px;
+}
+.boy-img {
+    width: 8%;
+    position: absolute;
+    left:40px; top: 20px;
+}
+a:hover {
+    color: black;
+   }
+li {
+     display: inline;
+   }
+/* .middle-container .bottom-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+.pro {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 330px; 
+    top: 130px; 
+}
+.top-text {
+    position: relative;
+    bottom: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 330px;
+    bottom: 320px;
+    
+}
+.mountain {
+    
+}
+.middle-container img {
+    width: 20%;
+    /* margin-top: 50px; */
+    /* padding-top: 50px; */
+}
+.profile {
+    margin-top: 50px;
+}
+.intro {
+    width: 36%;
+    margin: 20px auto auto auto;
+}
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+.skill-row img {
+    width: 25%; 
+}
+.web-dev {
+    float: left;
+    margin-right: 30px;
+}
+
+.coding {
+    float: right;
+    margin-left: 30px;
+}
+.contact-me {
+    margin: 80px auto 80px auto;
+    line-height: 2;
+}
+.contact-me-desc {
+    margin-bottom: 50px;
+}
+.button {
+    color: white;
+    background-color: #11999E;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    line-height: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bottom-container a {
+    color: #11999E;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.bottom-container a:hover {
+    color: white;
+}
+.bottom-container p {
+ color: #EAF6F6;
+}
+
+.footer-link {
+    margin: 15px;
+}
+
+
+
+
+
